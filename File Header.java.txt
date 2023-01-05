@@ -1,0 +1,8 @@
+
+/*
+ * Course: ${Course_Code} - ${Section}
+ * ${Term} ${Year}
+ * Lab ${Lab_Number} - ${Lab_Name}
+ * Name: ${Author}
+ * Created: ${DATE}
+ */
