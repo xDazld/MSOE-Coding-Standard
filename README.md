@@ -6,7 +6,7 @@ If you are not using IDEA, you can alternatively use [CheckStyle](https://facult
 ## IDE Setup
 These are the general steps for setting up an IDE from scratch. If you have already setup IntelliJ IDEA before, you only need steps 3-7.
 1. Sign up for the [Github Student Developer Pack](https://education.github.com/pack/).
-2. [Activate a free Jetbrains educational subscription](https://www.jetbrains.com/student/?authMethod=github) & install IntelliJ IDEA Ultimate using the [Toolbox App](https://www.jetbrains.com/toolbox-app/).
+2. [Activate a free JetBrains educational subscription](https://www.jetbrains.com/student/?authMethod=github) & install IntelliJ IDEA Ultimate using the [Toolbox App](https://www.jetbrains.com/toolbox-app/).
 3. Download the [Code Style](https://raw.githubusercontent.com/xDazld/MSOE-Coding-Standard/main/MSOE_Code_Style.xml) & [Inspections](https://raw.githubusercontent.com/xDazld/MSOE-Coding-Standard/main/MSOE_Inspections.xml) XML files.
 4. In IntelliJ IDEA, go to: Settings for New Projects. (Each project has its own settings, this changes your default settings when you make a new project).
 5. Navigate to: Editor → Code Style → ⚙️ → Import Scheme → IntelliJ IDEA Code Style XML; then find and select the Code Style file you downloaded, and click both OKs. Make sure "MSOE Code Style" is now selected as your scheme. (This controls how your file is formatted).
@@ -22,3 +22,5 @@ These are the general steps for setting up an IDE from scratch. If you have alre
 You should now be setup for coding in Java and JavaFX at MSOE.
 
 You may also optionally want to setup Google's [Error Prone](https://errorprone.info/docs/installation#:\~:text=IntelliJ%20IDEA,is%20NOT%20selected.).
+
+If writing code in Word or PowerPoint, you might want to have [JetBrains Mono](https://www.jetbrains.com/lp/mono/#how-to-install) available.
