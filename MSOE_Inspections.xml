@@ -18,7 +18,7 @@
       <value />
     </option>
   </inspection_tool>
-  <inspection_tool class="BadExceptionDeclared" enabled="true" level="WARNING" enabled_by_default="true">
+  <inspection_tool class="BadExceptionDeclared" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES">
     <option name="exceptionsString" value="" />
     <option name="exceptions">
       <value />
@@ -26,7 +26,7 @@
     <option name="ignoreTestCases" value="false" />
     <option name="ignoreLibraryOverrides" value="false" />
   </inspection_tool>
-  <inspection_tool class="BadExceptionThrown" enabled="true" level="WARNING" enabled_by_default="true">
+  <inspection_tool class="BadExceptionThrown" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES">
     <option name="exceptionsString" value="" />
     <option name="exceptions">
       <value />
@@ -155,6 +155,7 @@
     <option name="insideTryAllowed" value="false" />
   </inspection_tool>
   <inspection_tool class="JavaAnnotator" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="JavaFxDefaultTag" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JavaLangImport" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
   <inspection_tool class="JavaModuleNaming" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
   <inspection_tool class="JavadocDeclaration" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
