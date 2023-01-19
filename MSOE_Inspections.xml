@@ -12,7 +12,7 @@
   </inspection_tool>
   <inspection_tool class="AutoCloseableResource" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
   <inspection_tool class="AutoUnboxing" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="BadExceptionCaught" enabled="true" level="WARNING" enabled_by_default="true">
+  <inspection_tool class="BadExceptionCaught" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES">
     <option name="exceptionsString" value="" />
     <option name="exceptions">
       <value />
@@ -350,12 +350,8 @@
   <inspection_tool class="TodoComment" enabled="true" level="WEAK WARNING" enabled_by_default="true" editorAttributes="INFO_ATTRIBUTES">
     <option name="onlyWarnOnEmpty" value="false" />
   </inspection_tool>
-  <inspection_tool class="TooBroadCatch" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="onlyWarnOnRootExceptions" value="true" />
-  </inspection_tool>
-  <inspection_tool class="TooBroadThrows" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="onlyWarnOnRootExceptions" value="true" />
-  </inspection_tool>
+  <inspection_tool class="TooBroadCatch" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="TooBroadThrows" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="TrivialIf" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
   <inspection_tool class="TrivialStringConcatenation" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="TypeMayBeWeakened" enabled="true" level="WARNING" enabled_by_default="true">
