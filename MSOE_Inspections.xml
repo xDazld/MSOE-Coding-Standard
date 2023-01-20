@@ -43,7 +43,7 @@
     <option name="questionString" value="are,can,check,contains,could,endsWith,equals,has,is,matches,must,shall,should,startsWith,was,were,will,would" />
   </inspection_tool>
   <inspection_tool class="BoxingBoxedValue" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
-  <inspection_tool class="BreakStatement" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES" />
+  <inspection_tool class="BreakStatement" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
   <inspection_tool class="BulkFileAttributesRead" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CStyleArrayDeclaration" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
   <inspection_tool class="CallToSimpleGetterInClass" enabled="true" level="WARNING" enabled_by_default="true">
@@ -101,7 +101,7 @@
     <option name="MIN_STRING_LENGTH" value="5" />
     <option name="IGNORE_PROPERTY_KEYS" value="false" />
   </inspection_tool>
-  <inspection_tool class="DuplicatedCode" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES">
+  <inspection_tool class="DuplicatedCode" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES">
     <Languages>
       <language minSize="15" name="Kotlin" />
       <language minSize="5" name="Style Sheets" />
@@ -109,7 +109,6 @@
       <language minSize="15" name="Groovy" />
       <language minSize="15" name="JavaScript" />
       <language minSize="15" name="TypeScript" />
-      <language minSize="15" name="Python" />
     </Languages>
   </inspection_tool>
   <inspection_tool class="DynamicRegexReplaceableByCompiledPattern" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -284,7 +283,7 @@
     <option name="m_requireAnnotationsFirst" value="true" />
   </inspection_tool>
   <inspection_tool class="MisspelledMethodName" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
-  <inspection_tool class="MultipleReturnPointsPerMethod" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES">
+  <inspection_tool class="MultipleReturnPointsPerMethod" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES">
     <option name="ignoreGuardClauses" value="false" />
     <option name="ignoreEqualsMethod" value="false" />
     <option name="m_limit" value="1" />
@@ -418,10 +417,10 @@
     <option name="m_minLength" value="1" />
     <option name="m_maxLength" value="20" />
   </inspection_tool>
-  <inspection_tool class="ParametersPerConstructor" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES">
+  <inspection_tool class="ParametersPerConstructor" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES">
     <option name="m_limit" value="7" />
   </inspection_tool>
-  <inspection_tool class="ParametersPerMethod" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES">
+  <inspection_tool class="ParametersPerMethod" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES">
     <option name="m_limit" value="7" />
   </inspection_tool>
   <inspection_tool class="PointlessBooleanExpression" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES">
