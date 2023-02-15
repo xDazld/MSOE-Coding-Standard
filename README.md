@@ -24,3 +24,5 @@ You should now be setup for coding in Java and JavaFX at MSOE.
 You may also optionally want to setup Google's [Error Prone](https://errorprone.info/docs/installation#:\~:text=IntelliJ%20IDEA,is%20NOT%20selected.).
 
 If writing code in Word or PowerPoint, you might want to have [JetBrains Mono](https://www.jetbrains.com/lp/mono/#how-to-install) available.
+
+Turning on [Show inferred annotations inline](https://www.jetbrains.com/help/idea/2022.3/inferred-annotations.html#e406abb7) is helpful.
