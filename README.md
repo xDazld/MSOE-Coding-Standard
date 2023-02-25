@@ -26,3 +26,5 @@ You may also optionally want to setup Google's [Error Prone](https://errorprone.
 If writing code in Word or PowerPoint, you might want to have [JetBrains Mono](https://www.jetbrains.com/lp/mono/#how-to-install) available.
 
 Turning on [Show inferred annotations inline](https://www.jetbrains.com/help/idea/2022.3/inferred-annotations.html#e406abb7) is helpful.
+
+For convenience, having the JetBrains Toolbox Extension for [Chromium](https://chrome.google.com/webstore/detail/jetbrains-toolbox-extensi/offnedcbhjldheanlbojaefbfbllddna) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/jetbrains-toolbox/) makes it easy to open projects right from the GitHub web app.
