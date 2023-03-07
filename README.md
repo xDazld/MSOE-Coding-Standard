@@ -21,6 +21,20 @@ These are the general steps for setting up an IDE from scratch. If you have alre
 
 You should now be setup for coding in Java and JavaFX at MSOE.
 
+### Extra steps
+
 You may also optionally want to setup Google's [Error Prone](https://errorprone.info/docs/installation#:\~:text=IntelliJ%20IDEA,is%20NOT%20selected.).
 
 If writing code in Word or PowerPoint, you might want to have [JetBrains Mono](https://www.jetbrains.com/lp/mono/#how-to-install) available.
+
+Turning on [Show inferred annotations inline](https://www.jetbrains.com/help/idea/2022.3/inferred-annotations.html#e406abb7) is helpful.
+
+For convenience, having the JetBrains Toolbox Extension for [Chromium](https://chrome.google.com/webstore/detail/jetbrains-toolbox-extensi/offnedcbhjldheanlbojaefbfbllddna) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/jetbrains-toolbox/) makes it easy to open projects right from the GitHub web app.
+
+If you have never used IntelliJ, you should look over the [available features](https://www.jetbrains.com/idea/features/). You do not need to be an expert at everything right away, but at least knowing what things exist helps a lot. Some highlights:
+* The diagram feature is very helpful. If you are coming from BlueJ, this should help a bit with the transition.
+* Refactoring is a time saver if you want to rename something or move it.
+* The debugger is useful for debugging (fixing errors).
+* The profiler is nice if you are trying to figure out why your code is taking a long time to run.
+* JetBrains IDEs come with a collaborative coding, video call, and port forwarding system called [Code With Me](https://www.jetbrains.com/code-with-me/). It is helpful for working on projects in a small group in real time.
+* If you are not working in real time, the version control system integration is good for sharing files.
