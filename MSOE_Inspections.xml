@@ -565,7 +565,7 @@
   </inspection_tool>
   <inspection_tool class="SynchronizeOnNonFinalField" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
   <inspection_tool class="SynchronizedOnLiteralObject" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES" />
-  <inspection_tool class="SystemExit" enabled="true" level="WARNING" enabled_by_default="true">
+  <inspection_tool class="SystemExit" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="CONSIDERATION_ATTRIBUTES">
     <option name="ignoreInMainMethod" value="true" />
   </inspection_tool>
   <inspection_tool class="SystemGetenv" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -607,6 +607,9 @@
   <inspection_tool class="UnnecessarySuperConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnnecessaryTemporaryOnConversionFromString" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
   <inspection_tool class="UnnecessaryTemporaryOnConversionToString" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
+  <inspection_tool class="UnnecessaryThis" enabled="true" level="WEAK WARNING" enabled_by_default="true" editorAttributes="INFO_ATTRIBUTES">
+    <option name="ignoreAssignments" value="true" />
+  </inspection_tool>
   <inspection_tool class="UnnecessaryUnicodeEscape" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
   <inspection_tool class="UnpredictableBigDecimalConstructorCall" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES">
     <option name="ignoreReferences" value="true" />
