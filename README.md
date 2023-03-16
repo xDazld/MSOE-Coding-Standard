@@ -14,10 +14,11 @@ These are the general steps for setting up an IDE from scratch. If you have alre
 7. Navigate to: Editor → File and Code Templates → Includes → File Header; then paste the [MSOE Header](https://github.com/xDazld/MSOE-Coding-Standard/blob/main/File%20Header.java.txt) into the text box.
 8. Navigate to: Version Control → GitHub → ➕ → Log In via GitHub; then follow instructions to allow IntelliJ IDEA access. (This allows you to work with lab files).
 9. Navigate to: Tools → Shared Indexes; then set JDKs and Maven Libraries to "Download automatically". (This makes the IDE load much faster).
-10. Save your new settings.
-11. Go to: New Projects Setup → Structure.
-12. Set the JDK option to the newest version of Liberica. (This enables JavaFX, its source code, and its documentation).
-13. Save the settings.
+10. Navigate to: Plugins; then go to Marketplace, search for Python, and install the Python plugin.
+11. Save your new settings.
+12. Go to: New Projects Setup → Structure.
+13. Set the JDK option to the newest version of Liberica. (This enables JavaFX, its source code, and its documentation).
+14. Save the settings.
 
 You should now be setup for coding in Java and JavaFX at MSOE.
 
