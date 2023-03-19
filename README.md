@@ -15,7 +15,7 @@ These are the general steps for setting up an IDE from scratch. If you have alre
 8. Navigate to: Version Control → GitHub → ➕ → Log In via GitHub; then follow instructions to allow IntelliJ IDEA access. (This allows you to work with lab files).
 9. Navigate to: Version Control → Commit; then check all of the boxes under "Before Commit."
 10. Navigate to: Tools → Shared Indexes; then set JDKs and Maven Libraries to "Download automatically". (This makes the IDE load much faster).
-11. Navigate to: Plugins; then go to Marketplace, search for Python, and install the Python plugin.
+11. Navigate to: Plugins; then go to Marketplace, and install the "Python" and "Ruby" plugins.
 12. Save your new settings.
 13. Go to: New Projects Setup → Structure.
 14. Set the JDK option to the newest version of Liberica. (This enables JavaFX, its source code, and its documentation).
