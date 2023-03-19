@@ -118,11 +118,14 @@
   <inspection_tool class="DuplicatedCode" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES">
     <Languages>
       <language minSize="15" name="Kotlin" />
+      <language minSize="15" name="Rust" />
       <language minSize="5" name="Style Sheets" />
+      <language minSize="15" name="Ruby" />
       <language minSize="15" name="Java" />
       <language minSize="15" name="Groovy" />
       <language minSize="15" name="JavaScript" />
       <language minSize="15" name="TypeScript" />
+      <language minSize="15" name="Python" />
     </Languages>
   </inspection_tool>
   <inspection_tool class="DynamicRegexReplaceableByCompiledPattern" enabled="true" level="WARNING" enabled_by_default="true" />
