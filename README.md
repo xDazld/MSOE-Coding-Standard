@@ -18,7 +18,7 @@ These are the general steps for setting up an IDE from scratch. If you have alre
 11. Navigate to: Plugins; then go to Marketplace, and install the "Python" and "Ruby" plugins.
 12. Save your new settings.
 13. Go to: New Projects Setup → Structure.
-14. Set the JDK option to the newest version of Liberica. (This enables JavaFX, its source code, and its documentation).
+14. Set the JDK option to the latest version of Liberica that has stable support in IntelliJ. It is probably the highest number, but check with your instructor. (This enables JavaFX, its source code, and its documentation).
 15. Save the settings.
 
 You should now be setup for coding in Java and JavaFX at MSOE.
