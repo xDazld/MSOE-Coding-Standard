@@ -13,7 +13,7 @@
     <option name="m_checkForeachParameters" value="true" />
   </inspection_tool>
   <inspection_tool class="AssignmentUsedAsCondition" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
-  <inspection_tool class="AutoBoxing" enabled="true" level="WARNING" enabled_by_default="true">
+  <inspection_tool class="AutoBoxing" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="CONSIDERATION_ATTRIBUTES">
     <option name="ignoreAddedToCollection" value="true" />
   </inspection_tool>
   <inspection_tool class="AutoCloseableResource" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES" />
@@ -196,10 +196,10 @@
   </inspection_tool>
   <inspection_tool class="FinalizeNotProtected" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES" />
   <inspection_tool class="ForwardCompatibility" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
-  <inspection_tool class="HardcodedFileSeparators" enabled="true" level="WEAK WARNING" enabled_by_default="true" editorAttributes="INFO_ATTRIBUTES">
+  <inspection_tool class="HardcodedFileSeparators" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="CONSIDERATION_ATTRIBUTES">
     <option name="m_recognizeExampleMediaType" value="false" />
   </inspection_tool>
-  <inspection_tool class="HardcodedLineSeparators" enabled="true" level="WEAK WARNING" enabled_by_default="true" editorAttributes="INFO_ATTRIBUTES" />
+  <inspection_tool class="HardcodedLineSeparators" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="CONSIDERATION_ATTRIBUTES" />
   <inspection_tool class="HibernateResource" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES">
     <option name="insideTryAllowed" value="false" />
   </inspection_tool>
