@@ -111,11 +111,12 @@
   <inspection_tool class="DuplicateCondition" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES">
     <option name="ignoreSideEffectConditions" value="true" />
   </inspection_tool>
-  <inspection_tool class="DuplicateStringLiteralInspection" enabled="true" level="WARNING" enabled_by_default="true">
+  <inspection_tool class="DuplicateStringLiteralInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" editorAttributes="INFO_ATTRIBUTES">
     <option name="MIN_STRING_LENGTH" value="5" />
     <option name="IGNORE_PROPERTY_KEYS" value="false" />
   </inspection_tool>
-  <inspection_tool class="DuplicatedCode" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES">
+  <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true" editorAttributes="INFO_ATTRIBUTES">
+    <GlobalSettings restrictedDuplicateScope="EVERYWHERE" />
     <Languages>
       <language minSize="15" name="Kotlin" />
       <language minSize="15" name="Rust" />
@@ -137,14 +138,13 @@
     <option name="ignoreThrowables" value="true" />
     <option name="commentsAreContent" value="true" />
   </inspection_tool>
-  <inspection_tool class="EmptyFinallyBlock" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
-  <inspection_tool class="EmptyInitializer" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
-  <inspection_tool class="EmptyMethod" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
+  <inspection_tool class="EmptyInitializer" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="NOT_USED_ELEMENT_ATTRIBUTES" />
+  <inspection_tool class="EmptyMethod" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="NOT_USED_ELEMENT_ATTRIBUTES" />
   <inspection_tool class="EmptyStatementBody" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES">
     <option name="m_reportEmptyBlocks" value="true" />
   </inspection_tool>
   <inspection_tool class="EmptySynchronizedStatement" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
-  <inspection_tool class="EmptyTryBlock" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
+  <inspection_tool class="EmptyTryBlock" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="NOT_USED_ELEMENT_ATTRIBUTES" />
   <inspection_tool class="EnumSwitchStatementWhichMissesCases" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES">
     <option name="ignoreSwitchStatementsWithDefault" value="true" />
   </inspection_tool>
@@ -509,7 +509,7 @@
       <value />
     </option>
   </inspection_tool>
-  <inspection_tool class="PublicInnerClass" enabled="true" level="WARNING" enabled_by_default="true">
+  <inspection_tool class="PublicInnerClass" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="CONSIDERATION_ATTRIBUTES">
     <option name="ignoreEnums" value="false" />
     <option name="ignoreInterfaces" value="false" />
   </inspection_tool>
@@ -552,12 +552,12 @@
     <option name="insideTryAllowed" value="false" />
   </inspection_tool>
   <inspection_tool class="SortedCollectionWithNonComparableKeys" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES" />
-  <inspection_tool class="StandardVariableNames" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES">
+  <inspection_tool class="StandardVariableNames" enabled="true" level="WEAK WARNING" enabled_by_default="true" editorAttributes="INFO_ATTRIBUTES">
     <option name="ignoreParameterNameSameAsSuper" value="true" />
   </inspection_tool>
   <inspection_tool class="StaticGuardedByInstance" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="StaticInheritance" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES" />
-  <inspection_tool class="StringBufferMustHaveInitialCapacity" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="StringBufferMustHaveInitialCapacity" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="CONSIDERATION_ATTRIBUTES" />
   <inspection_tool class="StringBufferToStringInConcatenation" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="StringConcatenationInLoops" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
   <inspection_tool class="StringConcatenationInsideStringBufferAppend" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
@@ -588,9 +588,7 @@
   <inspection_tool class="ThreadPriority" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ThrowablePrintStackTrace" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ToArrayCallWithZeroLengthArrayArgument" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
-  <inspection_tool class="TodoComment" enabled="true" level="WEAK WARNING" enabled_by_default="true" editorAttributes="INFO_ATTRIBUTES">
-    <option name="onlyWarnOnEmpty" value="false" />
-  </inspection_tool>
+  <inspection_tool class="TodoComment" enabled="true" level="WEAK WARNING" enabled_by_default="true" editorAttributes="INFO_ATTRIBUTES" />
   <inspection_tool class="TooBroadCatch" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="onlyWarnOnRootExceptions" value="true" />
   </inspection_tool>
@@ -598,7 +596,6 @@
     <option name="onlyWarnOnRootExceptions" value="true" />
   </inspection_tool>
   <inspection_tool class="TrivialIf" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
-  <inspection_tool class="TrivialStringConcatenation" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="TypeMayBeWeakened" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="useRighthandTypeAsWeakestTypeInAssignments" value="true" />
     <option name="useParameterizedTypeForCollectionMethods" value="true" />
@@ -610,13 +607,11 @@
     <option name="ignoreSwitchBranches" value="false" />
   </inspection_tool>
   <inspection_tool class="UnnecessaryInheritDoc" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="NOT_USED_ELEMENT_ATTRIBUTES" />
-  <inspection_tool class="UnnecessaryModifier" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
   <inspection_tool class="UnnecessaryParentheses" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="NOT_USED_ELEMENT_ATTRIBUTES">
     <option name="ignoreClarifyingParentheses" value="true" />
     <option name="ignoreParenthesesOnConditionals" value="false" />
     <option name="ignoreParenthesesOnLambdaParameter" value="false" />
   </inspection_tool>
-  <inspection_tool class="UnnecessarySemicolon" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
   <inspection_tool class="UnnecessarySuperConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnnecessaryTemporaryOnConversionFromString" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
   <inspection_tool class="UnnecessaryTemporaryOnConversionToString" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
