@@ -1,0 +1,3 @@
+For "reasons", C and C++ are unavailable in IntelliJ IDEA Ultimate, and require an installation of a different IntelliJ based IDE called CLion. If you are using JetBrains Toolbox and already have the Jetbrains Educational Subscription activated, you can quickly download CLion from Toolbox.
+
+If you are using Ubuntu, the file "CLion Ubuntu Packages.txt" has the set of package names needed for most of CLion's features to work. Just copy and paste into an apt install command. It does not include GCC compilers for different architectures, if needed you will need to install those individually.
