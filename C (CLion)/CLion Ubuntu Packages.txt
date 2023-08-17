@@ -1,1 +1,1 @@
-clang clang-format clangd clang-tidy clazy cmake make valgrind podman-docker gcc doxygen gdb lldb gdbserver openocd stlink-tools googletest google-mock libboost-test-dev catch2 doctest-dev rsync ssh git mercurial subversion shellcheck
+clang clang-format clangd clang-tidy clazy cmake make valgrind docker.io gcc doxygen gdb lldb gdbserver openocd stlink-tools googletest google-mock libboost-test-dev catch2 doctest-dev rsync ssh git mercurial subversion shellcheck
