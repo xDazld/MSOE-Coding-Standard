@@ -2,9 +2,7 @@ JetBrains IDEs are all available on Linux. **Do not install them as Flatpaks.** 
 
 Other things to install:
 * Microsoft Teams. They have an official Linux client and a package repo for it. Flathub also has an unofficial client. Having a Teams client is mandatory for productive team work.
-* [Liberica Full](https://bell-sw.com/pages/repositories/), get the newest version that has stable support in IDEA. The "full" variant is the only one that has easy JavaFX.
-* Git, should be available as a package called git on any distro repo.
-* Python. There's a good chance you already have it installed, but if you went for absolute minimalisim with your setup then you will need to get it.
+* The packages listed in `Ubuntu Packages.txt`. Names might differ slightly on other distros.
+* [Liberica Full](https://bell-sw.com/pages/repositories/), get the full variant of the newest version that has stable support in IDEA. If you would rather manually load JavaFX when needed, you can skip this.
 
 If you are looking to install Linux on your school laptop, be warned that the Chemistry labs need Windows available for the program that allows access to the Vernier sensors. Also, the IT department has objections to people not wanting to use Microsoft's OS; installation requires getting the current UEFI setup password from someone and undoing the secure boot blacklist.
-

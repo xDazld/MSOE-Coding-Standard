@@ -4,22 +4,23 @@ The [MSOE EECS Department Java Coding Standards](https://csse.msoe.us/cs1021/cod
 If you are not using IDEA, you can alternatively use [CheckStyle](https://faculty-web.msoe.edu/jones/MSOE_checkStyle.xml).
 
 ## IDE Setup
-These are the general steps for setting up an IDE from scratch. If you have already setup IntelliJ IDEA before, you only need steps 3-7.
+These are the general steps for setting up an IDE from scratch. If you have already setup IntelliJ IDEA before, you only need steps 3-7. These instructions are for Windows, see Linux.md for help with Linux.
 1. Sign up for the [Github Student Developer Pack](https://education.github.com/pack/).
 2. [Activate a free JetBrains educational subscription](https://www.jetbrains.com/student/?authMethod=github) & install IntelliJ IDEA Ultimate using the [Toolbox App](https://www.jetbrains.com/toolbox-app/).
-3. Download the [Code Style](https://raw.githubusercontent.com/xDazld/MSOE-Coding-Standard/main/MSOE_Code_Style.xml) & [Inspections](https://raw.githubusercontent.com/xDazld/MSOE-Coding-Standard/main/MSOE_Inspections.xml) XML files.
-4. In IntelliJ IDEA, go to: Settings for New Projects. (Each project has its own settings, this changes your default settings when you make a new project).
-5. Navigate to: Editor → Code Style → ⚙️ → Import Scheme → IntelliJ IDEA Code Style XML; then find and select the Code Style file you downloaded, and click both OKs. Make sure "MSOE Code Style" is now selected as your scheme. (This controls how your file is formatted).
-6. Navigate to: Editor → Inspections → ⚙️ → Import Profile; then find and select the Inspections file you downloaded, and click OK. Make sure "MSOE Inspections" is now set as your profile. (Inspections are the hints the IDE gives you to fix problems).
-7. Navigate to: Editor → File and Code Templates → Includes → File Header; then paste the [MSOE Header](https://github.com/xDazld/MSOE-Coding-Standard/blob/main/File%20Header.java.txt) into the text box.
-8. Navigate to: Version Control → GitHub → ➕ → Log In via GitHub; then follow instructions to allow IntelliJ IDEA access. (This allows you to work with lab files).
-9. Navigate to: Version Control → Commit; then check all of the boxes under "Before Commit."
-10. Navigate to: Tools → Shared Indexes; then set JDKs and Maven Libraries to "Download automatically". (This makes the IDE load much faster).
-11. Navigate to: Plugins; then go to Marketplace, and install the "Python" and "Ruby" plugins.
-12. Save your new settings.
-13. Go to: New Projects Setup → Structure.
-14. Set the JDK option to the latest version of Liberica that has stable support in IntelliJ. It is probably the highest number, but check with your instructor. (This enables JavaFX, its source code, and its documentation).
-15. Save the settings.
+3. Install [Python](https://apps.microsoft.com/store/search?hl=en-us&gl=us&publisher=Python%20Software%20Foundation). Check with your instructor to determine the latest version JetBrains supports.
+4. Download the [Code Style](https://raw.githubusercontent.com/xDazld/MSOE-Coding-Standard/main/MSOE_Code_Style.xml) & [Inspections](https://raw.githubusercontent.com/xDazld/MSOE-Coding-Standard/main/MSOE_Inspections.xml) XML files.
+5. In IntelliJ IDEA, go to: Settings for New Projects. (Each project has its own settings, this changes your default settings when you make a new project).
+6. Navigate to: Editor → Code Style → ⚙️ → Import Scheme → IntelliJ IDEA Code Style XML; then find and select the Code Style file you downloaded, and click both OKs. Make sure "MSOE Code Style" is now selected as your scheme. (This controls how your file is formatted).
+7. Navigate to: Editor → Inspections → ⚙️ → Import Profile; then find and select the Inspections file you downloaded, and click OK. Make sure "MSOE Inspections" is now set as your profile. (Inspections are the hints the IDE gives you to fix problems).
+8. Navigate to: Editor → File and Code Templates → Includes → File Header; then paste the [MSOE Header](https://github.com/xDazld/MSOE-Coding-Standard/blob/main/File%20Header.java.txt) into the text box.
+9. Navigate to: Version Control → GitHub → ➕ → Log In via GitHub; then follow instructions to allow IntelliJ IDEA access. (This allows you to work with lab files).
+10. Navigate to: Version Control → Commit; then check all of the boxes under "Before Commit."
+11. Navigate to: Tools → Shared Indexes; then set JDKs and Maven Libraries to "Download automatically". (This makes the IDE load much faster).
+12. Navigate to: Plugins; then go to Marketplace, and install the "Python" and "Ruby" plugins.
+13. Save your new settings.
+14. Go to: New Projects Setup → Structure.
+15. Set the JDK option to the latest version of Liberica that has stable support in IntelliJ. It is probably the highest number, but check with your instructor. (This enables JavaFX, its source code, and its documentation).
+16. Save the settings.
 
 ### Extra steps
 
